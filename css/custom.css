@@ -1,0 +1,12 @@
+.bg-image{
+    background-image: url(../img/03.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+
+}
+.bg-image-2{
+    background-image: url(../img/04.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+
+}
