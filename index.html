@@ -24,16 +24,16 @@
 <body>
   <div class="container-lg">
     <div class="mb-5 pb-5">
-      <nav class="navbar bg-white   ">
+      <nav class="navbar bg-white navbar-expand-lg ">
         <div class="container-xxl">
           <div class="text-muted h3 ">
             logo
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon "></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          <div class="offcanvas offcanvas-end h3 fw-normal" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bonappetit</h5>
@@ -42,7 +42,13 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#salad">Salad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#fastfood">Fast Food</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#more">More</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -59,17 +65,13 @@
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </div>
       </nav>
     </div>
-    <div class="row justify-content-center fs-5 ">
-      <div class="col-sm-12 col-md-12 col-lg-6 ">
+    <div class="row justify-content-center fs-5">
+      <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-right">
         <div class="f-ubuntu">
           <div class="text-danger display-1 fw-normal">
             Dining
@@ -79,7 +81,7 @@
           </div>
         </div>
         <div>
-          <div class="mb-4 fs-5">
+          <div class="mb-4 fs-5 ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laboriosam exercitationem quis quam esse
             ducimus consequuntur, placeat fugiat tenetur! <u>Perfegendis</u> error repellendus autem aut nulla?
           </div>
@@ -92,54 +94,56 @@
           </div>
         </div>
       </div>
-      <div class=" col-sm-10 col-md-10 col-lg-6 ">
+      <div class="col-sm-9 col-md-9 col-lg-6" data-aos="fade-left" >
         <img src="img/1.jpg" class="rounded-circle img-fluid" alt="">
       </div>
     </div >
-    <div class="row my-lg-5 justify-content-center mb-sm-3">
-      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3">
+    <div class="row my-lg-5 justify-content-center mb-sm-3"  >
+      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3" data-aos="flip-right" data-aos-duration="2000" >
         <img src="img/0201.jpg" alt="" class="img-fluid">
       </div>
-      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3 ">
+      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3" data-aos="flip-right" data-aos-duration="2000">
         <img src="img/0202.jpg" alt="" class="img-fluid">
       </div>
-      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3">
+      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3" data-aos="flip-right" data-aos-duration="2000">
         <img src="img/0203.jpg" alt="" class="img-fluid">
       </div>
-      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3">
+      <div class="col-sm-5 col-md-5 col-lg-3 my-sm-3" data-aos="flip-right" data-aos-duration="2000">
         <img src="img/0204.jpg" alt="" class="img-fluid">
       </div>
     </div>
   </div>
-  <div class="bg-image d-sm-flex pt-lg-5 f-ubuntu">
-    <div class="text-white pt-lg-5  container-lg">
+  <div class="bg-image d-sm-flex pt-lg-5 f-ubuntu" id="fastfood">
+    <div class="text-white pt-lg-5 container-lg">
       <div class="pt-lg-5 mb-lg-5 mt-lg-5 pb-lg-5">
-        <div class="fw-normal text-uppercase mt-sm-5 pt-sm-5 mt-lg-5 pt-lg-5 h3">
+        <div class="fw-normal text-uppercase mt-sm-5 pt-sm-5 mt-lg-5 pt-lg-5 h3" data-aos="fade-right">
           must-try american foods
         </div>
-        <div class="fw-normal display-1 mt-sm-4 mb-lg-4 mb-md-3">
+        <div class="fw-normal display-1 mt-sm-4 mb-lg-4 mb-md-3" data-aos="fade-right">
           Fast Food
         </div>
-        <div class="mb-lg-3 mb-sm-3 ">
-          Images from <u class="text-danger "><span class="text-white ">Laizy</span></u>
+        <div class="mb-lg-3 mb-sm-3 " data-aos="fade-right">
+          Images from <a href="" class="text-danger"><span class="text-white ">Laizy</span></a>
         </div>
-        <div class=" pb-lg-5 mb-lg-5 mb-sm-5">
+        <div class="pb-md-5 pb-lg-5 mb-lg-5 mb-sm-5" data-aos="fade-right" data-aos-duration="1500">
           <input type="button" value="VEIW MENU"
             class="px-lg-5 text-bg-danger py-lg-2 fs-6 d-flex rounded-5 mb-lg-5 border-danger shadow-none mb-sm-5">
         </div>
       </div>
     </div>
   </div>
-  <div class="bg-image-2 pt-lg-5 f-ubuntu ">
-    <div class=" container-lg  mt-lg-5 pt-sm-5 ">
+  <div class="bg-image-2 pt-lg-5 f-ubuntu " style="background-color: #1c1819;" id="more">
+    <div class=" container-lg  mt-lg-5 pt-sm-5 " >
       <div class=" pt-lg-5 mt-lg-5 pt-md-3">
         <div class="pt-lg-5 mt-lg-5 pt-md-3">
           <div class="pt-lg-5 mt-lg-5 pt-md-3">
-            <div class="pt-lg-5 mt-lg-5 pt-md-3">
-              <div class="row text-white mt-5">
-                <div class="p-2 col-lg-4 col-md-4">
+            <div class="pt-lg-5 mt-lg-5 pt-md-5 mt-md-5">
+              <div class="row text-white mt-5" >
+                <div class="p-2 col-lg-4 col-md-4" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="500">
                   <div class="bg-secondary bg-opacity-10 px-4">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center ">
                       <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
                         01
                       </div>
@@ -157,10 +161,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="p-2 col-lg-4 col-md-4">
+                <div class="p-2 col-lg-4 col-md-4" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"> 
                   <div class="bg-secondary bg-opacity-10 px-4">
                     <div class="row align-items-center">
-                      <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
+                      <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-3 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
                         02
                       </div>
                       <div class="col-sm-8 col-lg-8 fs-3">
@@ -177,7 +183,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="p-2 col-lg-4 col-md-4">
+                <div class="p-2 col-lg-4 col-md-4" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                   <div class="bg-secondary bg-opacity-10 px-4">
                     <div class="row align-items-center">
                       <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
@@ -190,7 +198,7 @@
                     <div class="mb-sm-2 mb-lg-4 text-white-50">
                       Lorem ipsum dolor sit amet consectetur adipis icing elit. Ipsum nulla voluptatum, nesciunt. coniso samenso henomi 
                     </div>
-                    <div class="text-uppercase text-white pb-lg-5 fs-5  ">
+                    <div class="text-uppercase text-white pb-md-3 pb-lg-5 fs-5  ">
                       <a href="#" class="text-white">
                         learn more
                       </a>
@@ -204,10 +212,12 @@
       </div>
     </div>
   </div>
-  <div class="f-ubuntu text-white pb-lg-3" style="background-color: #1c1819;">
+  <div class="f-ubuntu text-white pb-lg-3" style="background-color: #1c1819;" >
     <div class="container-lg ">
       <div class="row text-white " >
-        <div class="p-2 col-lg-4 col-md-4">
+        <div class="p-2 col-lg-4 col-md-4" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
           <div class="bg-secondary bg-opacity-10 px-4">
             <div class="row align-items-center">
               <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
@@ -227,7 +237,9 @@
             </div>
           </div>
         </div>
-        <div class="p-2 col-lg-4 col-md-4">
+        <div class="p-2 col-lg-4 col-md-4" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000">
           <div class="bg-secondary bg-opacity-10 px-4">
             <div class="row align-items-center">
               <div class="py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3">
@@ -247,7 +259,9 @@
             </div>
           </div>
         </div>
-        <div class="p-2 col-lg-4 col-md-4">
+        <div class="p-2 col-lg-4 col-md-4" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
           <div class="bg-secondary bg-opacity-10 px-4">
             <div class="row align-items-center">
               <div class="my-sm-3 py-sm-3 col-lg-4 col-sm-4 display-5 bg-danger text-center rounded-circle py-lg-4 my-lg-3 ">
@@ -268,17 +282,17 @@
           </div>
         </div>
       </div>
-      <div class="text-white-50 fs-5 pb-lg-4 text-center ">
+      <div class="text-white-50 fs-5 pb-lg-4 text-center py-md-3   ">
         Image by <a class="text-white-50" href="#">Laizy</a>
       </div>
     </div>
   </div>
-  <div  class="f-ubuntu border-top border-white bg-image-3">
+  <div  class="f-ubuntu border-top border-white bg-image-3" id="salad">
     <div class="container-lg">
-      <div class="row mt-lg-5 my-lg-auto">
+      <div class="row mt-lg-5 ">
         <div class="col-sm-5 col-lg-5 my-lg-5 pe-lg-5 ">
           <div class="bg-white mt-lg-5 text-center">
-            <div class="my-lg-3 text-lg-centerv ">
+            <div class="my-lg-5 text-lg-centerv ">
               <div class="pt-lg-5">
                 <i class="bi-pinterest display-1 text-danger "></i>
               </div>
