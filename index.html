@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>as2</title>
+  <title>AS2</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-icons.css">
   <link rel="stylesheet" href="css/font.css">
@@ -24,7 +24,7 @@
 
 <body>
   <div class="container-lg">
-    <div class="mb-5 pb-5">
+    <div class="mb-lg-5 pb-lg-5 pb-3">
       <nav class="navbar bg-white navbar-expand-lg ">
         <div class="container-xxl">
           <div class="text-muted h3">
@@ -306,21 +306,55 @@
   </div>
   <div  class="f-ubuntu border-top border-white bg-image-3" id="salad">
     <div class="container-lg" data-aos="zoom-in-up" data-aos-duration="1000">
-      <div class="row mt-lg-5 ps-0 pe-0">
-        <div class="ps-0 pe-0 col-12 col-sm-5 col-lg-5 my-lg-5 pe-lg-5 ">
-          <div class="bg-white mt-lg-5 text-center">
-            <div class="my-lg-5 text-lg-center">
-              <div class="pt-lg-5">
-                <i class="bi-pinterest display-1 text-danger"></i>
-              </div>
-              <div class="fw-bold fs-2">
-                Pizza & Roll
-              </div>
-              <div class="mt-lg-5 px-lg-5 fs-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod, nisi debitis a animi aperiam recusandae delectus pariatur, itaque hic repellat voluptas, molestias quasi voluptatibus
-              </div>
-              <div class="text-uppercase mt-lg-5 mb-lg-5 btn rounded-5 border-danger border-3">
-                veiw menu
+      <div class="row mt-lg-5 ps-0 pe-0 ">
+        <div class="ps-0 pe-0 col-12 col-md-8 col-lg-5 my-lg-5 pe-lg-5 ">
+          <div class="bg-white mt-lg-5 text-center splide">
+            <div class="splide__slider">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <div class="my-lg-5  text-lg-center splide__slide">
+                    <div class="pt-lg-5">
+                      <i class="bi-twitter display-1 text-danger"></i>
+                    </div>
+                    <div class="fw-bold fs-2">
+                      Twitter
+                    </div>
+                    <div class="mt-lg-5 px-lg-5 fs-5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod, nisi debitis a animi aperiam recusandae delectus pariatur, itaque hic repellat voluptas, molestias quasi voluptatibus
+                    </div>
+                    <div class="text-uppercase mt-lg-5 mb-lg-5 btn rounded-5 border-danger border-3">
+                      veiw menu
+                    </div>
+                  </div>
+                  <div class="my-lg-5 text-lg-center splide__slide ">
+                    <div class="pt-lg-5">
+                      <i class="bi-facebook display-1 text-danger"></i>
+                    </div>
+                    <div class="fw-bold fs-2">
+                      Facebook
+                    </div>
+                    <div class="mt-lg-5 px-lg-5 fs-5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod, nisi debitis a animi aperiam recusandae delectus pariatur, itaque hic repellat voluptas, molestias quasi voluptatibus
+                    </div>
+                    <div class="text-uppercase mt-lg-5 mb-lg-5 btn rounded-5 border-danger border-3">
+                      veiw menu
+                    </div>
+                  </div>
+                  <div class="my-lg-5 text-lg-center splide__slide">
+                    <div class="pt-lg-5">
+                      <i class="bi-github display-1 text-danger"></i>
+                    </div>
+                    <div class="fw-bold fs-2">
+                      Github
+                    </div>
+                    <div class="mt-lg-5 px-lg-5 fs-5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod, nisi debitis a animi aperiam recusandae delectus pariatur, itaque hic repellat voluptas, molestias quasi voluptatibus
+                    </div>
+                    <div class="text-uppercase mt-lg-5 mb-lg-5 btn rounded-5 border-danger border-3">
+                      veiw menu
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -335,7 +369,11 @@
   <script>
     AOS.init();
   </script>
-
+  <script>
+    const splide = new Splide('.splide', {
+      type: 'loop'
+    }).mount();
+  </script>
 </body>
 
 </html>
